@@ -1,24 +1,27 @@
-# README
+# 日記アプリ(WIP)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 使い方
 
-Things you may want to cover:
+### gemのインストール
 
-* Ruby version
+```
+$ bundle install
+```
 
-* System dependencies
+### DBのマイグレーション
 
-* Configuration
+```
+$ bundle exec rails db:migrate
+```
 
-* Database creation
+### テスト
 
-* Database initialization
+```
+$ bundle exec rails test
+```
 
-* How to run the test suite
+### Railsサーバーの立ち上げ
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ bundle exec rails server
+```
